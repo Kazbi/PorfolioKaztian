@@ -1,0 +1,143 @@
+    /* Navbar */
+    .navbar {
+      background: #111; /* negro elegante */
+    }
+    
+    .navbar .nav-link, .navbar-brand {
+      color: white !important;
+      font-weight: 500;
+    }
+
+    .navbar-brand{
+      margin-left: 50px;
+    }
+
+    .navbar .nav-link:hover {
+      color: #ffeb3b !important; /* amarillo al pasar el mouse */
+    }
+
+    .nav-item{
+      color: #ffeb3b !important;
+    }
+
+    /* Hero Section */
+    #hero {
+      min-height: 100vh;
+      background: #111;
+      color: white;
+    }
+    .hero-text {
+      padding: 500px;
+    }
+    .hero-text h5 {
+      font-size: 1.2rem;
+      letter-spacing: 2px;
+      color: #bbb;
+    }
+    .hero-text h1 {
+      font-size: 3rem;
+      font-weight: bold;
+    }
+    .hero-text .highlight {
+      color: #fff;
+    }
+    .hero-text .subtitle {
+      background: #ffeb3b;
+      color: #111;
+      display: inline-block;
+      padding: 8px 48px;
+      font-weight: bold;
+      margin-right: auto;
+      border-radius: 5px;
+    }
+    
+    #TextLeft{
+      padding-left: 22rem;    
+    }
+
+    .hero-img img {
+      width: 100%;
+      height: auto;
+      object-fit: cover;
+    }
+  
+    /*New*/
+
+    #Who {
+      scroll-margin-top: 75px;
+      background: #eeeeee;
+      color: white;
+      max-width: auto;
+    }
+
+    .oil{
+      background: #df1e74;
+      color: #eeeeee;
+      display: inline-block;
+      padding:20px;
+      font-weight: bold;
+      margin: 10px 0;
+      border-radius: 5px;
+      text-align: center;
+      font-size: 2rem;
+    }
+
+    #Text1{
+color: #111;
+text-align: justify;
+}
+
+#FondoIm {
+  background-color: rgb(230, 173, 208);
+  padding: 20px;
+  margin: 20px;
+}
+
+#Yo {
+  padding: 20px;
+  margin: 20px;
+}
+
+#work{
+  scroll-margin-top: 75px;
+  background-color:#dddddd;
+}
+
+    .lio{
+      background: #e6761b;
+      color: #eeeeee;
+      display: inline-block;
+      padding:20px;
+      font-weight: bold;
+      margin: 10px 0;
+      border-radius: 5px;
+      text-align: center;
+      font-size: 2rem;
+    }
+
+#miniNav .nav-link {
+  background-color: #14005a;   /* Fondo */
+  color: white;                /* Texto */
+  font-family: 'Poppins', sans-serif; /* Fuente */
+  font-size: 16px;
+  border-radius: 10px;         /* Bordes redondeados */
+  margin: 0 5px;               /* Espacio entre botones */
+  transition: 0.3s;            /* Suavidad al hover */
+}
+
+/* Hover */
+#miniNav .nav-link:hover {
+  background-color: #1b1080;   /* Un poco más claro */
+}
+
+/* Activo */
+#miniNav .nav-link.active {
+  background-color: #ffffff;   /* Cuando está seleccionado */
+  color: #14005a;
+  font-weight: bold;
+}
+
+#Contacto{
+  scroll-margin-top: 75px;
+  background-color:#111;
+}
